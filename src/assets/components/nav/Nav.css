@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.navbar_links {
+    display: flex;
+    gap: 20px;
+}
+
+.logo a {
+    color: #90a0d9;
+    font-size: 1.5rem;
+}

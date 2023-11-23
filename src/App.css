@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Poppins-Rg';
+  src: url('./assets/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Bld';
+  src: url('./assets/fonts/Poppins-Bold.ttf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins-Rg';
+}
+
+body {
+  padding-inline: 10%;
+  background-color: #23283e;
+  color: #bdbddd;
+}
+
+a {
+  color: #bdbddd;
+  text-decoration: none;
+}
+
+/* Farben:
+-   #23283e; #2a2f4c; #bdbddd; #cdcdff; #90a0d9; */
