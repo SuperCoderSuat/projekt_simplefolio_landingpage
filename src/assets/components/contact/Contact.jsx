@@ -4,8 +4,10 @@ import './Contact.css'
 const Contact = () => {
     return (
         <>
-            <h2>Contact</h2>
-            <Button />
+            <h2 className='pt100'>Contact</h2>
+            <Button
+                name={'email me'}
+            />
         </>
     );
 }

@@ -5,7 +5,7 @@ const ProjectsCard = (props) => {
         <div className='card_item'>
             <h4>{props.title}</h4>
             <p>{props.text}</p>
-            <div>
+            <div className='toolset'>
                 <a href="#">Javascript</a>
                 <a href="#">React</a>
                 <a href="#">Sass</a>

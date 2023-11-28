@@ -2,7 +2,7 @@ import './SkillItem.css'
 
 const SkillItem = (props) => {
     return (
-        <button>{props.name}</button>
+        <button className='skill_btn'>{props.name}</button>
     );
 }
 
